@@ -34,6 +34,11 @@ const config: HardhatUserConfig = {
       chainId: 56,
       gasPrice: 20000000000,
       accounts: {mnemonic: memonicPhrase }
+    },
+
+    polygon: {
+      url: 'https://polygon-mumbai.g.alchemy.com/v2/uSkOT5_pn8JEervxCOA5j9HovDrRkS5y',
+      accounts: { mnemonic: memonicPhrase }
     }
   }
 };
